@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #new-task {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+  }
+  
+  #add-task {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #tasks-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #tasks-list li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  #tasks-list li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Style for checked tasks (add animation here) */
+  #tasks-list li input[type="checkbox"]:checked + span {
+    text-decoration: line-through;
+    opacity: 0.5;
+    /* Add animation styles here */
+  }
+  
